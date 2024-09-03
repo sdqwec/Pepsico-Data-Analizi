@@ -15,6 +15,6 @@ veri["YEARS"]= pd.to_datetime(veri['Date'])
 plt.plot( veri["YEARS"],fiyatlar)
 plt.xlabel("Years")
 plt.ylabel("Dollars")
-plt.title("Open and Closes of Pepsico")
+plt.title("Opens and Closes of Pepsico")
 plt.show()
 
